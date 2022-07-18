@@ -1,0 +1,7 @@
+CREATE SCHEMA app;
+SET search_path = app
+CREATE TABLE answers (
+id SERIAL PRIMARY KEY,
+answer TEXT,
+tags TEXT
+);
